@@ -1,0 +1,10 @@
+19/02/2020 00:17:08):CRITICAL:Test1logger:critical message form test1 module
+19/02/2020 00:17:08):ERROR:Test1logger:error message form test1 module
+19/02/2020 00:17:08):WARNING:Test1logger:warning message form test1 module
+19/02/2020 00:17:08):INFO:Test1logger:info message form test1 module
+19/02/2020 00:17:08):DEBUG:Test1logger:debug message form test1 module
+19/02/2020 00:17:58):CRITICAL:Test1logger:critical message form test1 module
+19/02/2020 00:17:58):ERROR:Test1logger:error message form test1 module
+19/02/2020 00:17:58):WARNING:Test1logger:warning message form test1 module
+19/02/2020 00:17:58):INFO:Test1logger:info message form test1 module
+19/02/2020 00:17:58):DEBUG:Test1logger:debug message form test1 module
