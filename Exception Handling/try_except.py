@@ -22,3 +22,4 @@ except BaseException as msg:
     print('Type of exception is:',msg.__class__)
     print('Name of exception is:',msg.__class__.__name__)
     print('Description of exception is:',msg)
+# print(test)

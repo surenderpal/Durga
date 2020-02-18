@@ -1,0 +1,18 @@
+Monday February 17/02/2020 18:10:03 :INFO:A new request come
+Monday February 17/02/2020 18:10:08 :INFO:A request processing completed
+Monday February 17/02/2020 18:10:10 :INFO:A new request come
+Monday February 17/02/2020 18:10:12 :INFO:A request processing completed
+Monday February 17/02/2020 18:10:14 :INFO:A new request come
+Monday February 17/02/2020 18:10:18 :ERROR:division by zero
+Traceback (most recent call last):
+  File "Exce_Info_In_Log_file.py", line 10, in <module>
+    print('The result is:',x/y)
+ZeroDivisionError: division by zero
+Monday February 17/02/2020 18:10:18 :INFO:A request processing completed
+Monday February 17/02/2020 18:10:20 :INFO:A new request come
+Monday February 17/02/2020 18:10:23 :ERROR:invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "Exce_Info_In_Log_file.py", line 9, in <module>
+    y=int(input('Enter second Number: '))
+ValueError: invalid literal for int() with base 10: ''
+Monday February 17/02/2020 18:10:23 :INFO:A request processing completed

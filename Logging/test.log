@@ -1,0 +1,6 @@
+CRITICAL:root:critical message by student module
+ERROR:root:error message by student module
+WARNING:root:warning message by student module
+CRITICAL:root:critical message by test module
+ERROR:root:error message by test module
+WARNING:root:warning message by test module
