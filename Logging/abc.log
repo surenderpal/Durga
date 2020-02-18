@@ -1,5 +1,0 @@
-CRITICAL:root:It is critical message
-ERROR:root:It is error message
-WARNING:root:It is warning message
-INFO:root:It is Info message
-DEBUG:root:It is debug message
