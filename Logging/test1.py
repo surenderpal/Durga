@@ -3,7 +3,7 @@ import student1
 logger=logging.getLogger('Test1logger')
 logger.setLevel(logging.DEBUG)
 fileHandler=logging.FileHandler('test1.log',mode='a')
-formatter=logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s',datefmt='%d/%m/%Y %H:%M:%S)')
+formatter=logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s',datefmt='%d/%m/%Y %H:%M:%S')
 fileHandler.setFormatter(formatter)
 logger.addHandler(fileHandler)
 logger.critical('critical message form test1 module')

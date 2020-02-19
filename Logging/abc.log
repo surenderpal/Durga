@@ -1,0 +1,25 @@
+19/02/2020 11:37:09 PM:CRITICAL:logtestlogger:Critical message from student module
+19/02/2020 11:37:09 PM:ERROR:logtestlogger:error message from student module
+19/02/2020 11:37:09 PM:WARNING:logtestlogger:warning message from student module
+19/02/2020 11:37:09 PM:INFO:logtestlogger:info message from student module
+19/02/2020 11:37:09 PM:DEBUG:logtestlogger:debug message from student module
+19/02/2020 11:37:12 PM:CRITICAL:logtestlogger:Critical message from student module
+19/02/2020 11:37:12 PM:ERROR:logtestlogger:error message from student module
+19/02/2020 11:37:12 PM:WARNING:logtestlogger:warning message from student module
+19/02/2020 11:37:12 PM:INFO:logtestlogger:info message from student module
+19/02/2020 11:37:12 PM:DEBUG:logtestlogger:debug message from student module
+19/02/2020 11:39:49 PM:CRITICAL:logtestlogger:Critical message from student module
+19/02/2020 11:39:49 PM:ERROR:logtestlogger:error message from student module
+19/02/2020 11:39:49 PM:WARNING:logtestlogger:warning message from student module
+19/02/2020 11:39:49 PM:INFO:logtestlogger:info message from student module
+19/02/2020 11:39:49 PM:DEBUG:logtestlogger:debug message from student module
+19/02/2020 11:40:39 PM:CRITICAL:logtestlogger:Critical message from student module
+19/02/2020 11:40:39 PM:ERROR:logtestlogger:error message from student module
+19/02/2020 11:40:39 PM:WARNING:logtestlogger:warning message from student module
+19/02/2020 11:40:39 PM:INFO:logtestlogger:info message from student module
+19/02/2020 11:40:39 PM:DEBUG:logtestlogger:debug message from student module
+19/02/2020 11:40:56 PM:CRITICAL:generic_loglogger:Critical message from generic logger 2 module
+19/02/2020 11:40:56 PM:ERROR:generic_loglogger:error message from generic logger 2 module
+19/02/2020 11:40:56 PM:WARNING:generic_loglogger:warning message from generic logger 2 module
+19/02/2020 11:40:56 PM:INFO:generic_loglogger:info message from generic logger 2 module
+19/02/2020 11:40:56 PM:DEBUG:generic_loglogger:debug message from generic logger 2 module
