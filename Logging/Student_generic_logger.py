@@ -8,5 +8,3 @@ def logtest():
     logger.info('info message from student module')
     logger.debug('debug message from student module')
 logtest()
-
-  
