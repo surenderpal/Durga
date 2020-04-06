@@ -7,4 +7,3 @@ logging.error('error message by test module')
 logging.warning('warning message by test module')
 logging.info('info message by test module')
 logging.debug('debug message by test module')
-

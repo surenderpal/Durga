@@ -1,0 +1,5 @@
+20/02/2020 12:05:52 AM :CRITICAL :logtestlogger :Critical message from student module
+20/02/2020 12:05:52 AM :ERROR :logtestlogger :error message from student module
+20/02/2020 12:05:52 AM :WARNING :logtestlogger :warning message from student module
+20/02/2020 12:05:52 AM :INFO :logtestlogger :info message from student module
+20/02/2020 12:05:52 AM :DEBUG :logtestlogger :debug message from student module

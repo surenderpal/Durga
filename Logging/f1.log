@@ -1,0 +1,5 @@
+20/02/2020 12:05:27 AM :CRITICAL :f1logger :Critical message from student module
+20/02/2020 12:05:27 AM :ERROR :f1logger :error message from student module
+20/02/2020 12:05:27 AM :WARNING :f1logger :warning message from student module
+20/02/2020 12:05:27 AM :INFO :f1logger :info message from student module
+20/02/2020 12:05:27 AM :DEBUG :f1logger :debug message from student module
