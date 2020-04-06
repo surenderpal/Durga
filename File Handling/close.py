@@ -16,4 +16,3 @@ f.writelines(l)
 # f.writelines(d['2'])
 f.writelines(d.values())
 f.close()
-
