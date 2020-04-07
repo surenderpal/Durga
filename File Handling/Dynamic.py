@@ -9,5 +9,4 @@ while True:
 f.close()
 print('Data written to the file successfully')
 f=open('fname','r')
-# f.read()
 print('entered data is:',f.read())

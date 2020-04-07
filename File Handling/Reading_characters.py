@@ -1,0 +1,8 @@
+f=open('linux_basic_code.txt','r')
+# print('Printing data from file',f.read())
+# print()
+# print('Reading only 20 characters',f.read(20))
+# print()
+# print('Reading only one line',f.readline())
+# print()
+print('Reading all lines and printing it in list:',f.readlines())
