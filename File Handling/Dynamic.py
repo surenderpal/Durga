@@ -1,10 +1,13 @@
-fname=print('enter file name:')
+fname=input('enter file name:')
 f=open('fname','w')
 while True:
     data=input('Enter data to write in your file:')
-    f.write(data+'\n')
+    f.write(data + '\n')
     option=input('Do you want to continue to add more data to file:[yes|no]:')
-    if opion.lower()=='no':
+    if option.lower()=='no':
         break
-print('Your data that you have entered in the file is:')
 f.close()
+print('Data written to the file successfully')
+f=open('fname','r')
+# f.read()
+print('entered data is:',f.read())
