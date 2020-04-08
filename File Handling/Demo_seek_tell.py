@@ -1,0 +1,15 @@
+f=open('demo.txt','r+')
+f.write('ALL STUDENTS ARE STUPIDS')
+with open('demo.txt','r+') as f:
+        text=f.read()
+        print('Data befor modification:')
+        print(text)
+        print('the current position of cursor is:',f.tell())
+        f.seek(17)
+        # print(f.read())
+        f.write('GEMS!!!')
+        f.seek(0)
+        text=f.read()
+        print('Data after modification:')
+        print(text)
+       
