@@ -6,7 +6,7 @@ if os.path.isfile(fname):
         text=f.read()
         print('The content of the file is:')
         print('*'*40)
-        print(text)
+        print(text,end='')
         print('*'*40)
 else:
     print("File doesn't exitst:",fname)
