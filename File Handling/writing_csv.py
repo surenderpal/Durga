@@ -1,5 +1,5 @@
 import csv
-with open('emp.csv','w',newline='213') as f:
+with open('emp.csv','w',newline='') as f:
     w=csv.writer(f)
     w.writerow(['Eno','Ename','Esal','Eadd']) 
     while True:
