@@ -11,5 +11,10 @@ import os
 # l=os.listdir('cwd/material')
 l=os.walk('cwd')
 # print(type(l))
-for g in l:
-    print(g)
+# for g in l:
+#     print(g)
+for path,name,file1 in l:
+    print('Dir path:',path)
+    print('Dir name:',name)
+    print('Dir file:',file1)
+    print()
