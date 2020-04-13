@@ -11,7 +11,7 @@ import os
 l=os.listdir('cwd/material')
 print(type(l))
 # l=os.walk('cwd')
-# print(type(l))
+# print(type(l))S
 # for g in l:
 #     print(g)
 # for path,name,file1 in l:
