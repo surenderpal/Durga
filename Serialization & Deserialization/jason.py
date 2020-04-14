@@ -3,3 +3,7 @@ employee={'namee':'surender','age':35,'salary':1000.0,'ismarried':True,'isHaving
 json_string=json.dumps(employee,indent=1,sort_keys=True) #serialize to string
 print(json_string)
 # {"namee": "surender", "age": 35, "salary": 1000.0, "ismarried": true, "isHavingGF": null}
+with open('emp.json','w') as f:
+    json.dump(employee,f)
+print('Dumped data sucessfully!!!')
+
