@@ -6,14 +6,15 @@ json_strint='''{
                 "isMarried": true,
                 "IsHavingGF":null
             }'''
-display=json.loads(json_strint)
-print(type(display))
-print(display)
-print('Emp Name:',display['name'])
-print('Emp Age:',display['age'])
-print('Salary',display['salary'])
-print('Is Emp Married:',display['isMarried'])
-print('Is Emp Haing GF:',display['IsHavingGF'])
+# display=json.loads(json_strint)#deserialization from json Sring
+# print(type(display))
+# print(display)
+# print('Emp Name:',display['name'])
+# print('Emp Age:',display['age'])
+# print('Salary',display['salary'])
+# print('Is Emp Married:',display['isMarried'])
+# print('Is Emp Haing GF:',display['IsHavingGF'])
+# for k,v in display.items():
+#     print(k,':',v)
+# Deserialization from file
 
-for k,v in display.items():
-    print(k,':',v)
