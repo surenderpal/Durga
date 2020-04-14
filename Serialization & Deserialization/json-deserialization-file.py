@@ -3,7 +3,7 @@ with open('emp.json','r') as f:
     display=json.load(f)
 print(display)
 print('*'*40)
-print('Emp Name:',display['namee'])
+print('Emp Name:',display['namee']) 
 print('Emp Age:',display['age'])
 print('Salary',display['salary'])
 print('Is Emp Married:',display['ismarried'])
