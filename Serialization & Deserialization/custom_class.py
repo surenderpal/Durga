@@ -15,6 +15,12 @@ e_dict=e.__dict__  #converting employee object to dict using .__dict__ function
 # json_string=json.dumps(e_dict,indent=4,sort_keys=True)
 # print(json_string)
 # serializing dict object to json file
-with open('custom.json','w') as f:
-    json.dump(e_dict,f)
-print('Custom Dict object dumped successfully!!!')
+# with open('custom.json','w') as f:
+#     json.dump(e_dict,f)
+# print('Custom Dict object dumped successfully!!!')
+
+# Deserialization from file
+with open('custom.json','r') as f:
+    edict=json.load(f)
+emp=Employee(edict['eno'],edict['ename'],edict['esal'],edict['eaddr'])
+emp.display()
