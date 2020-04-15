@@ -8,5 +8,6 @@ class Employee:
     def display(self):
         print('Employee No is {}, \nEmployee Name is {}, \nEmployee Salarys is {} and \nEmployee Address is {}'.format(self.eno,self.ename,self.esal,self.eaddr))
 e=Employee(100,'surender',1000,'Delhi')
-e_dict={'eno':e.eno,'ename':e.ename,'esal':e.esal,'eaddr':e.eaddr}
+# e_dict={'eno':e.eno,'ename':e.ename,'esal':e.esal,'eaddr':e.eaddr} #converting class to dict manually
+e_dict=e.__dict__  #converting employee object to dict using .__dict__ function
 print('converted custom class to Dict:',e_dict)
