@@ -1,0 +1,15 @@
+#function aliasing
+def wish(name):
+    print('Good Morning,',name)
+greeting=wish
+del wish #deleting one referance variable but we can access the function using second variable
+# print(id(wish))
+print(id(greeting))
+# wish('surender')
+greeting('surender')
+
+#================================ Nested function
+def outer():
+    print('outer function execution started')
+    def inner():
+        print('Inner funciton execution')
