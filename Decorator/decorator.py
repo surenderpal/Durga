@@ -9,11 +9,19 @@
 # greeting('surender')
 
 #================================ Nested function
+# def outer():
+#     print('outer function execution started')
+#     def inner():
+#         print('Inner funciton execution')
+#     # inner()# calling inside of outer funciton 
+#     print('outer function execution completed')
+#     # inner() #calling end of outside function
+# outer()
+
 def outer():
-    print('outer function execution started')
     def inner():
-        print('Inner funciton execution')
-    # inner()# calling inside of outer funciton 
-    print('outer function execution completed')
-    # inner() #calling end of outside function
+        print('Inner function execution..')
+    return inner    
 outer()
+f1=outer()
+f1()
