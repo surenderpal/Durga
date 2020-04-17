@@ -17,11 +17,27 @@
 #     print('outer function execution completed')
 #     # inner() #calling end of outside function
 # outer()
+# function as return value
+# def outer():
+#     def inner():
+#         print('Inner function execution..')
+#     return inner    
+# outer()
+# f1=outer()
+# f1()
 
-def outer():
-    def inner():
-        print('Inner function execution..')
-    return inner    
-outer()
-f1=outer()
-f1()
+# # function as argument
+# def f1(func):
+#     func()
+# def f2():
+#     print('f2 function')
+# f1(f2)
+
+l=[1,2,3,4,5,6,7,8,9,10]
+def is_even(n):
+    if n%2==0:
+        return True
+    else:
+        return False
+l2=list(filter(is_even,l))
+print(l2)
