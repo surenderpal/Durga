@@ -6,4 +6,4 @@ def decor(func):
 @decor
 def dispaly():
     print('shwoing a person as it is')
-dispaly()
+dispaly() 
