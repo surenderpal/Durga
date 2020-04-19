@@ -1,7 +1,7 @@
 def decor_for_f(func):
     def inner1():
         print('Decorator 1 execution')
-        # func()
+        func()
     return inner1
 def decor2_for_f(func):
     def inner2():
