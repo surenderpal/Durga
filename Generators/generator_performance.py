@@ -21,4 +21,9 @@ g=student_generator(10000)
 t2=time.perf_counter()
 print('Time required to student Generator:',(t2-t1))
 
-
+l=list(g)
+print(l[0])
+print(l[1])
+print(l[2])
+print(l[3])
+print(l)
