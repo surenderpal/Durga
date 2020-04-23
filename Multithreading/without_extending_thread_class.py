@@ -2,7 +2,7 @@ from threading import *
 class test:
     def display(self):
         for i in range(10):
-            print('Child Thread executing Name:',current_thread().getName())
+            print('Child Thread executing Name:',i,current_thread().getName())
 o=test()
 # t=Thread(target=test().display) 
 t1=Thread(target=o.display)
