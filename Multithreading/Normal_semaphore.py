@@ -1,3 +1,4 @@
+# In semaphore no of release call can exceeds the acquire call
 from threading import *
 # s=Semaphore(2)
 s=BoundedSemaphore(2)

@@ -1,3 +1,4 @@
+# In Bounded semaphore no of release call can't exceeds the acquire call
 from threading import *
 s=BoundedSemaphore(2)
 s.acquire()
