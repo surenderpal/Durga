@@ -1,5 +1,5 @@
 from threading import *
-
+c=Condition()
 def consumer(c):
     c.acquire()
     print('consumer waiting for updation.')
@@ -12,7 +12,6 @@ def producer(c):
     print('Producer giving the notification')
     c.notify()
     c.release()
-c=Condition()
 t1=Thread(target=consumer,args=(c,))
 t2=Thread(target=producer,args=(c,))
 t1.start()
