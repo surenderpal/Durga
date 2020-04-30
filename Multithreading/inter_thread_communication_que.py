@@ -17,5 +17,5 @@ def consumer(q):
         time.sleep(5)
 t1=Thread(target=producer,args=(q,))
 t2=Thread(target=consumer,args=(q,))
-t1.start()
 t2.start()
+t1.start()
