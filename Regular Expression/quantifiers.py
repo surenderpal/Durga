@@ -5,7 +5,7 @@ for m in matcher:
 
 # Quantifiers
 # The number of occurrences
-# a--> exactly one 'a'
+# a--> exactly one 'a' 
 # a+-> atleast one 'a'
 # a*-> any number of a's including zero number also
 # a?-> atmost one a

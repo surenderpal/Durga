@@ -32,5 +32,5 @@ import re
 
 # find all
 
-l=re.findall('[0-9]','a7b9k6z')
+l=re.findall('[a-z]','a7b9k6z')
 print(l)
