@@ -6,4 +6,3 @@ if con!= None:
 else:
     print('connection not established')
 con.close()
-
